@@ -1,0 +1,31 @@
+/* Efectos al cambiar de tuit */
+
+.carousel-fade .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  }
+
+.carousel-fade .item.active { opacity: 1; }
+/* quitar los indicators */
+#indicators {display: none;}
+/* contenedores */
+.marco {border: solid 5px #000;height: 96vh;width: 174vh;margin: 15px;padding: 0px;}
+.carousel-container {width: 100vh; height:100vh; }
+.col-der {margin-top:0px;}
+.titulo {margin-bottom: 32px;}
+
+/* Resto estilos */
+.frase {font-family: 'Economica', sans-serif;text-transform: uppercase;font-weight: bold;font-size: 40px;margin-bottom:-20px;}
+.img-user {max-height: 70px;}
+.nombre{font-size: 26px;font-family: 'Open Sans', sans-serif;}
+.username{font-size: 18px;font-family: 'Open Sans', sans-serif;}
+
+.texto{font-size: 28px;font-family: font-family: 'Open Sans', sans-serif;font-weight: 400;line-height: 40px;padding-right: 15px;}
+
+#logo>img {
+    display: block;
+    width: 100px;
+}
